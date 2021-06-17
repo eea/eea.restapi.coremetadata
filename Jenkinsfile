@@ -3,7 +3,7 @@ pipeline {
 
   environment {
         GIT_NAME = "eea.restapi.coremetadata"
-        SONARQUBE_TAGS = "www.eea.europa.eu"
+        SONARQUBE_TAGS = "land.copernicus.eu"
     }
 
   stages {
