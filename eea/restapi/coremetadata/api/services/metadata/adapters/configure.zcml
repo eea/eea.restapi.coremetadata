@@ -1,0 +1,12 @@
+<configure
+  xmlns="http://namespaces.zope.org/zope"
+  xmlns:plone="http://namespaces.plone.org/plone">
+
+
+  <!-- Adapter for Plone Site Root -->
+  <adapter factory=".plone.PloneSiteCoreMetadataAdapter" />
+
+  <!-- Adapter for basic dexterity content -->
+  <adapter factory=".dexterity.BaseDexterityCoreMetadataAdapter" />
+
+</configure>

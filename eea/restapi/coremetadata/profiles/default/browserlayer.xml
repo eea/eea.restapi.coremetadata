@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<layers>
-  <layer
-      name="eea.restapi.coremetadata"
-      interface="eea.restapi.coremetadata.interfaces.IEeaRestapiCoremetadataLayer"
-      />
-</layers>

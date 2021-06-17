@@ -1,0 +1,17 @@
+<configure
+  xmlns="http://namespaces.zope.org/zope"
+  xmlns:plone="http://namespaces.plone.org/plone">
+
+  <include package=".adapters" />
+
+  <adapter factory=".get.Metadata" name="@metadata"/>
+
+  <plone:service
+    method="GET"
+    for="zope.interface.Interface"
+    factory=".get.MetadataGet"
+    name="@metadata"
+    permission="zope2.View"
+    />
+
+</configure>

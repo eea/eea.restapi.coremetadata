@@ -7,8 +7,7 @@ eea.restapi.coremetadata is a revolutionary plone package that redefines Plone A
 
 Installation
 ============
-  * Go to admin > Site Setup > Add-ons
-  * Activate eea.restapi.coremetadata
+  * Add this product in your buildout. It does not require any extra installation step.
 
 
 Authors
